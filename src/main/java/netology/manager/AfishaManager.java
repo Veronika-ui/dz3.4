@@ -14,10 +14,6 @@ public class AfishaManager {
         this.moviesToReturn = moviesToReturn;
     }
 
-    public AfishaManager() {
-
-    }
-
     public void add(MovieItem movieItem) {
 
         MovieItem[] tmp = new MovieItem[movies.length + 1];
